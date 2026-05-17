@@ -28,7 +28,7 @@ window.QUIZ_BATTLE_CONFIG = Object.freeze({
     "Physics/Space": ["Laws of Motion","The Equilibrium","A Space Odyssey","Gravity","A Long Time Ago!","Hiroshima and Nagasaki"],
     "Movies/TV": ["The Godfather","Breaking Bad","Inception","Game of Thrones","The Dark Knight","Stranger Things"],
     "Travel/LifeStyle": ["LUXE","Phatela Jeb Sil Jayega","Jet2Holidays","Bhraman","The Bermuda Triangle","Foodgasm!"],
-    "Music": ["Coke Studio","Unplugged","Indian Idol","Rap God","Secret Superstar","Amercia's Latent"],
+    "Music": ["Coke Studio","Unplugged","Indian Idol","Rap God","Secret Superstar","Americas Latent"],
     "Social Media": ["Whats the Meme?","Zat Pat Fatafat","Viral Vichaar","Hashtag Hostage","Ultras","Boomer Ghoomar"],
     "Politics": ["Pechaan Kaun?","Bol Bachchan","Kya Aap Jaante Hain?","Aalochana","Apna Time Aayega","Control Uday!"],
     "Literature/Art": ["The Martian","Lisan-Al-Gaib","A Thousand Cuts","And Then There Were None","The Da Vinci Code","Abstract Attack"],
@@ -148,6 +148,14 @@ window.QUIZ_BATTLE_CONFIG = Object.freeze({
       "Game of Thrones": [".md"],
       "The Dark Knight": [".jpg", ".jpeg", ".png", ".avif"],
       "Stranger Things": [".mp3", ".mp4", ".wav", ".webm"]
+    },
+    "Music": {
+      "Coke Studio": [".mp3", ".mp4", ".wav", ".webm"],
+      "Unplugged": [".mp3", ".mp4", ".wav", ".webm"],
+      "Indian Idol": [".mp3", ".mp4", ".wav", ".webm"],
+      "Rap God": [".mp3", ".mp4", ".wav", ".webm"],
+      "Secret Superstar": [".mp3", ".mp4", ".wav", ".webm"],
+      "Americas Latent": [".mp3", ".mp4", ".wav", ".webm"]
     }
   },
 
@@ -282,7 +290,7 @@ window.QUIZ_BATTLE_CONFIG = Object.freeze({
       "Indian Idol": "Name the singer from the image.",
       "Rap God": "Identify the rapper from the audio clip.",
       "Secret Superstar": "Name the song from the video clip.",
-      "Amercia's Latent": "Identify the music genre from the text clue."  
+      "Americas Latent": "Identify the music genre from the text clue."  
     }
   }
 });
