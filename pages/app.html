@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Battle</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Outfit:wght@300;400;500;600;700;800&family=Sora:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+  <div class="page-shell">
+    <main class="battle-board">
+      <p class="eyebrow">v/s Mode: Quiz Night</p>
+      <h1>When the Dust Settles, The Last One Standing Wins</h1>
+      <p class="intro">
+        Battle Mode On!
+      </p>
+
+      <section class="cards-section" aria-label="Quiz category cards">
+        <div class="cards-heading">
+          <span class="cards-badge">Category Deck</span>
+          <h2 id="category-title">Science &amp; Discovery</h2>
+        </div>
+
+        <div class="flash-card-grid">
+          <button class="flash-card" type="button" data-card>
+            <span class="card-dust" aria-hidden="true"></span>
+            <span class="card-face card-front">?</span>
+            <span class="card-face card-back">
+              <span data-card-label>Science &amp; Discovery</span>
+              <span class="card-select-icon" aria-hidden="true">&#10003;</span>
+            </span>
+          </button>
+          <button class="flash-card" type="button" data-card>
+            <span class="card-dust" aria-hidden="true"></span>
+            <span class="card-face card-front">?</span>
+            <span class="card-face card-back">
+              <span data-card-label>Science &amp; Discovery</span>
+              <span class="card-select-icon" aria-hidden="true">&#10003;</span>
+            </span>
+          </button>
+          <button class="flash-card" type="button" data-card>
+            <span class="card-dust" aria-hidden="true"></span>
+            <span class="card-face card-front">?</span>
+            <span class="card-face card-back">
+              <span data-card-label>Science &amp; Discovery</span>
+              <span class="card-select-icon" aria-hidden="true">&#10003;</span>
+            </span>
+          </button>
+          <button class="flash-card" type="button" data-card>
+            <span class="card-dust" aria-hidden="true"></span>
+            <span class="card-face card-front">?</span>
+            <span class="card-face card-back">
+              <span data-card-label>Science &amp; Discovery</span>
+              <span class="card-select-icon" aria-hidden="true">&#10003;</span>
+            </span>
+          </button>
+          <button class="flash-card" type="button" data-card>
+            <span class="card-dust" aria-hidden="true"></span>
+            <span class="card-face card-front">?</span>
+            <span class="card-face card-back">
+              <span data-card-label>Science &amp; Discovery</span>
+              <span class="card-select-icon" aria-hidden="true">&#10003;</span>
+            </span>
+          </button>
+          <button class="flash-card" type="button" data-card>
+            <span class="card-dust" aria-hidden="true"></span>
+            <span class="card-face card-front">?</span>
+            <span class="card-face card-back">
+              <span data-card-label>Science &amp; Discovery</span>
+              <span class="card-select-icon" aria-hidden="true">&#10003;</span>
+            </span>
+          </button>
+        </div>
+
+        <div class="cards-actions">
+          <button class="reveal-button" id="reveal-category" type="button">Reveal</button>
+        </div>
+      </section>
+
+      <form class="versus-form" id="versus-form">
+        <label class="text-box">
+          <span>Player One</span>
+          <input id="player-one" name="playerOne" type="text" maxlength="24" placeholder="Enter username or gamertag" required>
+        </label>
+        <label class="text-box">
+          <span>Player Two</span>
+          <input id="player-two" name="playerTwo" type="text" maxlength="24" placeholder="Enter username or gamertag" required>
+        </label>
+        <button class="start-button" type="submit">Start Battle</button>
+      </form>
+    </main>
+  </div>
+
+  <div class="versus-overlay" id="versus-overlay" aria-hidden="true">
+    <div class="overlay-backdrop"></div>
+    <div class="overlay-panel" role="dialog" aria-modal="true" aria-labelledby="versus-title">
+      <img class="versus-art" src="../assets/versus.svg" alt="Versus artwork">
+      <div class="versus-copy">
+        <span class="versus-player" id="overlay-player-one">Player One</span>
+        <span class="versus-title" id="versus-title">VS</span>
+        <span class="versus-player" id="overlay-player-two">Player Two</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="../.config/categories.config.js"></script>
+  <script src="../scripts/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Battle Admin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Sora:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <main class="admin-shell">
+    <section class="admin-board" aria-labelledby="admin-title">
+      <p class="eyebrow">Admin Control</p>
+      <h1 id="admin-title">Select the category, then launch the arena.</h1>
+      <p class="intro">This panel chooses the category that will be passed into the main web UI before the players enter their names.</p>
+
+      <div class="admin-grid">
+        <form class="admin-form" id="admin-form">
+          <label class="text-box admin-select-box">
+            <span>Quiz Category</span>
+            <div class="custom-select" id="category-select-shell">
+              <button class="custom-select-trigger" id="category-trigger" type="button" aria-haspopup="listbox" aria-expanded="false" aria-controls="category-menu">
+                <span id="category-trigger-label">Select a category</span>
+                <span class="select-icon" aria-hidden="true"></span>
+              </button>
+              <div class="custom-select-menu" id="category-menu" role="listbox" aria-label="Quiz Category"></div>
+            </div>
+            <input id="category-select" name="category" type="hidden" required>
+          </label>
+
+          <button class="start-button" type="submit">Start Web UI</button>
+        </form>
+
+        <aside class="admin-preview" aria-label="Selected category preview">
+          <span class="cards-badge">Live Selection</span>
+          <strong id="admin-category-preview">Science &amp; Discovery</strong>
+          <p>The selected category is stored and injected into the app page before the battle begins.</p>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <script src=".config/categories.config.js"></script>
+  <script src="scripts/admin.js"></script>
+</body>
+</html>

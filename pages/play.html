@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Battle Play</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Sora:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+  <main class="play-shell">
+    <section class="play-board" aria-labelledby="play-title">
+      <p class="eyebrow">Battle Ready?</p>
+      <h1 id="play-title">Seize the Victory</h1>
+      <p class="intro">Challenge &amp; Conquer Now</p>
+
+      <div class="play-matchup">
+        <div class="play-player">
+          <span>Player One</span>
+          <strong id="play-player-one">Player One</strong>
+        </div>
+        <div class="play-versus">VS</div>
+        <div class="play-player">
+          <span>Player Two</span>
+          <strong id="play-player-two">Player Two</strong>
+        </div>
+      </div>
+
+      <div class="play-description-pill" id="play-description-pill">
+        <span class="play-description-label">Question</span>
+        <p class="round-description" id="round-description"></p>
+      </div>
+
+      <div class="question-card" id="question-card" data-state="waiting">
+
+        <!-- Waiting: pulsing dots -->
+        <div class="question-waiting" aria-label="Waiting for question">
+          <span class="waiting-dot"></span>
+          <span class="waiting-dot"></span>
+          <span class="waiting-dot"></span>
+        </div>
+
+        <!-- Markdown question -->
+        <div class="question-markdown" id="question-markdown"></div>
+
+        <!-- Text question -->
+        <p class="question-text" id="question-text"></p>
+
+        <!-- Image question: blurs in, 15 s countdown unblurs it -->
+        <div class="question-image-wrap" id="question-image-wrap">
+          <img class="question-img" id="question-img" src="" alt="">
+          <div class="question-timer" id="question-timer">
+            <div class="timer-track">
+              <span class="timer-bar" id="timer-bar"></span>
+            </div>
+            <div class="timer-bottom">
+              <span class="timer-count" id="timer-count">15</span>
+              <button class="timer-pause-btn" id="timer-pause-btn" type="button" aria-label="Pause timer" data-state="playing">⏸</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Audio question -->
+        <div class="question-audio-wrap" id="question-audio-wrap">
+          <span class="question-audio-label">Listen &amp; Answer</span>
+          <audio class="question-audio" id="question-audio" controls></audio>
+        </div>
+
+        <!-- Video question -->
+        <div class="question-video-wrap" id="question-video-wrap">
+          <video class="question-video" id="question-video" controls></video>
+        </div>
+
+        <!-- Article: breaking-news layout -->
+        <div class="question-article" id="question-article">
+          <div class="article-header">
+            <span class="article-live-dot" aria-hidden="true"></span>
+            <span class="article-breaking-label">Breaking News</span>
+          </div>
+          <div class="article-headline-wrap">
+            <p class="article-headline" id="article-headline"></p>
+          </div>
+          <div class="article-ticker-strip" aria-hidden="true">
+            <span class="article-ticker" id="article-ticker"></span>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="play-actions">
+        <a class="back-link" href="app.html" onclick="sessionStorage.setItem('returnedFromPlay','1')">Back to App</a>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="../.config/categories.config.js"></script>
+  <script src="../scripts/play.js"></script>
+</body>
+</html>
