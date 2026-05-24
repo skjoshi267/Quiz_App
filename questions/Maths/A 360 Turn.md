@@ -1,7 +1,7 @@
 ## Quadratic Equation with a Constraint
 Solve:
 \[
-x^2 - 5x + 6 = 0
+x² - 5x + 6 = 0
 \]
 Constraint:
 \[

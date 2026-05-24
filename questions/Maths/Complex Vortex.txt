@@ -1,1 +1,2 @@
-"i raised to 2" (\(i^{2}\))
+𝓲² ("i raised to 2")
+

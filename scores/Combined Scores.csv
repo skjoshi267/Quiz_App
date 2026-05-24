@@ -1,31 +1,163 @@
-Player,Total Score (points),Category,Name,variable,category,Type
-prakash,7719,history,,,,
-rish,7553,history,,,,
-muzammil,6705,history,,,,
-kanak,6639,history,,,,
-sakura,5642,history,,,,
-vaidehi,4822,history,,,,
-adwait,4817,history,,,,
-mano,4649,history,,,,
-preet,4572,history,preet,Weakness,history,Weakness
-vishal,4564,history,,,,
-prakas,2959,sports,,,,
-kanak,2930,sports,kanak,Strength.1,sports,Strength
-adwait,2928,sports,,,,
-vishal,2912,sports,vishal,Strength.3,sports,Strength
-rish,2905,sports,,,,
-sakura,2879,sports,,,,
-preet,2868,sports,,,,
-mano,2818,sports,,,,
-muz,1937,sports,muz,Strength.3,sports,Strength
-vaidehi,1902,sports,,,,
-kanak,6499,technology,,,,
-prakash,4757,technology,,,,
-vaidehi,4685,technology,,,,
-preet,4490,technology,,,,
-sakura,3862,technology,,,,
-mux,3749,technology,,,,
-vishal,3720,technology,vishal,Strength.2,technology,Strength
-rish,3686,technology,,,,
-mano,2889,technology,,,,
-adwait,1936,technology,,,,
+Player,Total score (points),Category,Tag,variable,category,Type
+adwait,8582,biology,adwait,,,
+rishabh,8541,biology,rishabh,,,
+muz,6552,biology,muz,Weakness.1,biology,Weakness
+mano,6505,biology,mano,,,
+rish,6473,biology,rish,Weakness.3,biology,Weakness
+sahib,6433,biology,sahib,Weakness.2,biology,Weakness
+badhirpanda,5504,biology,badhirpanda,,,
+pre-eat,5445,biology,pre-eat,Weakness.2,biology,Weakness
+sommz,5244,biology,sommz,Strength.3,biology,Strength
+sakura,4712,biology,sakura,,,
+kale,4661,biology,kale,Weakness.4,biology,Weakness
+vishal,4653,biology,vishal,,,
+rishabh,8489,current affairs,rishabh,Strength,current affairs,Strength
+adwait,5598,current affairs,adwait,,,
+sommz,5570,current affairs,sommz,Strength,current affairs,Strength
+muz,5426,current affairs,muz,,,
+sakura,4682,current affairs,sakura,,,
+kale,4465,current affairs,kale,,,
+pre-eat,4097,current affairs,pre-eat,,,
+rish,3385,current affairs,rish,Strength.1,current affairs,Strength
+vishal,945,current affairs,vishal,,,
+mano,6238,current affairs,mano,Strength,current affairs,Strength
+rishabh,10264,gaming,rishabh,Strength.4,gaming,Strength
+sakura,10113,gaming,sakura,,,
+muz,8499,gaming,muz,Strength.4,gaming,Strength
+adwait,6661,gaming,adwait,Strength.2,gaming,Strength
+pre-eat,5430,gaming,pre-eat,Strength,gaming,Strength
+badhirpanda,5339,gaming,badhirpanda,,,
+rish,4957,gaming,rish,Weakness.2,gaming,Weakness
+sommz,4508,gaming,sommz,,,
+kale,4468,gaming,kale,Weakness.3,gaming,Weakness
+vishal,4359,gaming,vishal,Strength.4,gaming,Strength
+mano,3737,gaming,mano,Weakness.2,gaming,Weakness
+sahib,2672,gaming,sahib,,,
+mano,8353,geography,mano,,,
+rish,7409,geography,rish,Strength.2,geography,Strength
+sommz,6664,geography,sommz,Strength.1,geography,Strength
+muz,5632,geography,muz,Strength,geography,Strength
+adwait,4748,geography,adwait,Weakness.1,geography,Weakness
+pre-eat,4622,geography,pre-eat,Weakness.1,geography,Weakness
+kale,4558,geography,kale,Strength.1,geography,Strength
+sakura,3747,geography,sakura,,,
+rishabh,3734,geography,rishabh,Strength.1,geography,Strength
+vishal,1705,geography,vishal,Weakness,geography,Weakness
+rish,8099,history,rish,Strength,history,Strength
+sommz,7073,history,sommz,,,
+rishabh,6686,history,rishabh,,,
+sakura,6547,history,sakura,Weakness,history,Weakness
+badhirpanda,6506,history,badhirpanda,Strength,history,Strength
+mano,6500,history,mano,,,
+vishal,6328,history,vishal,,,
+pre-eat,5653,history,pre-eat,Weakness,history,Weakness
+adwait,4774,history,adwait,Weakness,history,Weakness
+kale,4712,history,kale,Strength,history,Strength
+muz,4690,history,muz,Weakness,history,Weakness
+sahib,4495,history,sahib,Weakness.3,history,Weakness
+sommz,7951,literature_art,sommz,Weakness.4,literature_art,Weakness
+pre-eat,7272,literature_art,pre-eat,,,
+mano,5645,literature_art,mano,Weakness.4,literature_art,Weakness
+kale,5642,literature_art,kale,Strength.4,literature_art,Strength
+muz,5260,literature_art,muz,,,
+vishal,4992,literature_art,vishal,Weakness.4,literature_art,Weakness
+sakura,4691,literature_art,sakura,,,
+adwait,4660,literature_art,adwait,,,
+rish,3777,literature_art,rish,Strength.4,literature_art,Strength
+rishabh,3707,literature_art,rishabh,,,
+sommz,8436,maths,sommz,Strength.2,maths,Strength
+muz,8116,maths,muz,Strength.1,maths,Strength
+mano,6997,maths,mano,Strength.1,maths,Strength
+pre-eat,6134,maths,pre-eat,,,
+rish,4952,maths,rish,,,
+sakura,4673,maths,sakura,,,
+rishabh,3803,maths,rishabh,Weakness,maths,Weakness
+sahib,3717,maths,sahib,,,
+vishal,3328,maths,vishal,Strength,maths,Strength
+badhirpanda,2741,maths,badhirpanda,Weakness,maths,Weakness
+kale,1838,maths,kale,Weakness,maths,Weakness
+adwait,939,maths,adwait,Weakness.2,maths,Weakness
+adwait,9539,movies_tv,adwait,,,
+kale,9484,movies_tv,kale,Strength.2,movies_tv,Strength
+muz,8386,movies_tv,muz,Weakness.2,movies_tv,Weakness
+sommz,7983,movies_tv,sommz,Strength.4,movies_tv,Strength
+rish,7267,movies_tv,rish,Weakness.4,movies_tv,Weakness
+vishal,6616,movies_tv,vishal,Weakness.2,movies_tv,Weakness
+sahib,6602,movies_tv,sahib,,,
+sakura,6519,movies_tv,sakura,,,
+mano,6404,movies_tv,mano,,,
+pre-eat,5734,movies_tv,pre-eat,Strength.1,movies_tv,Strength
+badhirpanda,5168,movies_tv,badhirpanda,,,
+rishabh,1885,movies_tv,rishabh,Weakness.1,movies_tv,Weakness
+kale,9474,music,kale,Strength.3,music,Strength
+vishal,9298,music,vishal,Weakness.3,music,Weakness
+rish,8846,music,rish,,,
+sakura,7533,music,sakura,Weakness.2,music,Weakness
+pre-eat,8123,music,pre-eat,,,
+muz,6824,music,muz,Weakness.3,music,Weakness
+sommz,6308,music,sommz,Weakness.2,music,Weakness
+sahib,4746,music,sahib,Weakness.1,music,Weakness
+adwait,4717,music,adwait,,,
+rishabh,3787,music,rishabh,Weakness.2,music,Weakness
+mano,7233,music,mano,Weakness.3,music,Weakness
+rishabh,7570,physics_space,rishabh,Strength.2,physics_space,Strength
+sakura,7236,physics_space,sakura,,,
+rish,5623,physics_space,rish,,,
+sommz,4672,physics_space,sommz,,,
+mano,4454,physics_space,mano,Weakness,physics_space,Weakness
+pre-eat,2849,physics_space,pre-eat,,,
+adwait,2756,physics_space,adwait,,,
+kale,2694,physics_space,kale,Weakness.1,physics_space,Weakness
+vishal,2503,physics_space,vishal,Strength.1,physics_space,Strength
+muz,1850,physics_space,muz,,,
+sommz,7762,politics,sommz,,,
+muz,7514,politics,muz,,,
+mano,7013,politics,mano,,,
+adwait,6734,politics,adwait,,,
+rishabh,6589,politics,rishabh,,,
+sakura,6534,politics,sakura,Weakness.1,politics,Weakness
+rish,5623,politics,rish,Strength.3,politics,Strength
+pre-eat,3457,politics,pre-eat,,,
+kale,2869,politics,kale,,,
+vishal,1851,politics,vishal,Weakness.1,politics,Weakness
+muz,9414,social media,muz,Weakness.4,social media,Weakness
+sakura,9330,social media,sakura,Strength.2,social media,Strength
+kale,9285,social media,kale,,,
+rishabh,7640,social media,rishabh,Weakness.4,social media,Weakness
+sommz,7608,social media,sommz,Weakness.3,social media,Weakness
+mano,7407,social media,mano,Strength.4,social media,Strength
+pre-eat,7402,social media,pre-eat,Strength.3,social media,Strength
+adwait,6684,social media,adwait,,,
+rish,5643,social media,rish,,,
+vishal,5626,social media,vishal,,,
+adwait,9459,sports,adwait,Strength.1,sports,Strength
+sakura,9260,sports,sakura,,,
+mano,8486,sports,mano,Weakness.1,sports,Weakness
+muz,7616,sports,muz,Strength.3,sports,Strength
+sommz,6754,sports,sommz,Weakness.1,sports,Weakness
+rishabh,6671,sports,rishabh,,,
+vishal,6391,sports,vishal,Strength.3,sports,Strength
+kale,4609,sports,kale,Weakness.2,sports,Weakness
+pre-eat,3635,sports,pre-eat,,,
+rish,1786,sports,rish,Weakness.1,sports,Weakness
+rishabh,8324,technology,rishabh,Strength.3,technology,Strength
+vishal,7583,technology,vishal,Strength.2,technology,Strength
+sakura,6576,technology,sakura,Strength,technology,Strength
+adwait,5653,technology,adwait,Strength,technology,Strength
+rish,5376,technology,rish,Weakness,technology,Weakness
+muz,4691,technology,muz,Strength.2,technology,Strength
+sahib,5649,technology,sahib,Strength.3,technology,Strength
+kale,4579,technology,kale,,,
+sommz,4398,technology,sommz,Weakness,technology,Weakness
+pre-eat,2828,technology,pre-eat,,,
+mano,6492,technology,mano,Strength.2,technology,Strength
+rish,8276,travel_lifestyle,rish,,,
+kale,7951,travel_lifestyle,kale,,,
+muz,7494,travel_lifestyle,muz,,,
+pre-eat,7358,travel_lifestyle,pre-eat,Strength.2,travel_lifestyle,Strength
+mano,7314,travel_lifestyle,mano,Strength.3,travel_lifestyle,Strength
+adwait,6589,travel_lifestyle,adwait,,,
+sommz,6231,travel_lifestyle,sommz,,,
+vishal,6063,travel_lifestyle,vishal,,,
+rishabh,5688,travel_lifestyle,rishabh,Weakness.3,travel_lifestyle,Weakness
+sakura,4636,travel_lifestyle,sakura,Strength.1,travel_lifestyle,Strength

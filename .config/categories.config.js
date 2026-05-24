@@ -31,7 +31,7 @@ window.QUIZ_BATTLE_CONFIG = Object.freeze({
     "Music": ["Coke Studio","Unplugged","Indian Idol","Rap God","Secret Superstar","Americas Latent"],
     "Social Media": ["Whats the Meme?","Zat Pat Fatafat","Viral Vichaar","Hashtag Hostage","Ultras","Boomer Ghoomar"],
     "Politics": ["Pechaan Kaun?","Bol Bachchan","Kya Aap Jaante Hain?","Aalochana","Apna Time Aayega","Control Uday!"],
-    "Literature/Art": ["The Martian","Lisan-Al-Gaib","A Thousand Cuts","And Then There Were None","The Da Vinci Code","Abstract Attack"],
+    "Literature/Art": ["The Martian","Lisan-Al-Gaib","A Thousand Cuts","And Then There Were None","The Heist","Abstract Attack"],
     "Biology": ["Dil Se","Tar Wale Fefde","Genelia D'Souza","Makhi","Mockingbird","The Bone Collector"]
   },
   // Maps each card label to the ordered list of file extensions to search for.
@@ -82,7 +82,7 @@ window.QUIZ_BATTLE_CONFIG = Object.freeze({
       "Lisan-Al-Gaib": [".txt"],
       "A Thousand Cuts": [".jpg", ".jpeg", ".png", ".avif"],
       "And Then There Were None": [".md"],
-      "The Da Vinci Code": [".jpg", ".jpeg", ".png", ".avif"],
+      "The Heist": [".jpg", ".jpeg", ".png", ".avif"],
       "Abstract Attack": [".mp3", ".mp4", ".wav", ".webm"]
     },
     "Maths": {
@@ -174,39 +174,39 @@ window.QUIZ_BATTLE_CONFIG = Object.freeze({
   roundDescriptionByLabel: {
     "Politics": {
       "Pechaan Kaun?":        "Name the political figure from the blurred image.",
-      "Bol Bachchan":         "Name the politician from the audio or video clip.",
+      "Bol Bachchan":         "Name the politician from the audio clip.",
       "Kya Aap Jaante Hain?": "Read the headline — answer who said this.",
       "Aalochana":            "Who is criticising? Identify from the image.",
       "Apna Time Aayega":     "Name the MAGA Activist assassinated in 2024.",
       "Control Uday!":        "Read the headline — answer who said this."
     },
     "Current Affairs": {
-      "Beacon of Hope!":      "Identify the organization from the blurred image.",
+      "Beacon of Hope!":      "Identify the embassy from the blurred image.",
       "Who am I?":            "Give the expanded form of the ABBREVIATION.",
-      "Achievements Unlocked":"Read the achievement — who does it belong to?",
+      "Achievements Unlocked":"Based on the clues — identify the country?",
       "United We Fall!":      "Name five states of the below Council.",
       "Project Hail Mary":    "Name the Global Organization from the image.",
       "Warning Danger Ahead!": "Name the Animal causing this recently."
     },
     "Geography": {
       "Falling Rocks": "Name the famous landmark from the blurred image.",
-      "Back to School": "Identify the place from the video of a famous School.",
+      "Back to School": "Identify the school from the video.",
       "TriColor": "Name three countries with below colors in their flags.",
       "Geeeooode": "Name the rock type pokemon from the image.",
-      "Capital Punishment": "Name the neighboring city that is a capital of a country.",
+      "Capital Punishment": "Name the neighboring capital city of the below",
       "Clickbait!": "Name the monument from the image."
     },
     "Gaming": {
-      "Level Up!": "Identify the platform from the blurred image.",
+      "Level Up!": "Identify the device from the blurred image.",
       "Boss Fight": "Answer the question about the final boss.",
-      "Speed Racer": "Complete the below list of games.",
+      "Speed Racer": "Complete the below list of Indian Outdoor games.",
       "Donkey Kong": "Name the game from the sound",
       "Pixels": "Name the game from the video clip.",
-      "Glitch in the Matrix": "In below game how many cards shuffle when you shuffle the deck?"
+      "Glitch in the Matrix": "In below game how many cards do you turn from the stockpile?"
     },
     "History": {
       "Do Bhai Dono Tabahi": "Name the historical figures from the blurred image.",
-      "Satyamev Jayate": "Name of the speech given by the leader who spoke these words.",
+      "Satyamev Jayate": "Name the speech quoting these words.",
       "Back to the Future": "Name the historical prince who was assassinated.",
       "March Madness": "Name the historical event from the blurred image.",
       "Tropical Retreat": "Name the historical place from the image.",
@@ -214,14 +214,14 @@ window.QUIZ_BATTLE_CONFIG = Object.freeze({
     },
     "Literature/Art": {
       "The Martian": "Name this beloved comicbook character from Justice League.",
-      "Lisan-Al-Gaib": "Name the character from the book Dune referred.",
+      "Lisan-Al-Gaib": "Name the character from the book.",
       "A Thousand Cuts": "Death of Julius Caesar: How many stab wounds did he receive?",
       "And Then There Were None": "Name the detective in the famous Agatha Christie novels.",
-      "The Da Vinci Code": "Name this famous painting by Leonardo Da Vinci.",
+      "The Heist": "Name the famous painter tributed by this mask.",
       "Abstract Attack": "Identify the artist from the sound."
     },
     "Maths": {
-      "Aahat!": "Name the mathematical term for this sound.",
+      "Aahat!": "Name the mathematical constant that forms this image.",
       "Nafa_Nuksaan": "Identify the mathematician from the text.",
       "The Fourier Transform": "Complete the remaining shapes.",
       "Dhoom Dhadaka": "Name of the mathematical function represented by the below graph.",
@@ -238,7 +238,7 @@ window.QUIZ_BATTLE_CONFIG = Object.freeze({
     },
     "Biology": {
       "Dil Se": "Answer the question based on the text clue.",
-      "Tar Wale Fefde": "Name the disease from the text clue.",
+      "Tar Wale Fefde": "Name the gas from the text clue.",
       "Genelia D'Souza": "Identify the treatment for the disease.",
       "Makhi": "Name the insect from the image.",
       "Mockingbird": "Identify the bird from the sound.",
@@ -250,7 +250,7 @@ window.QUIZ_BATTLE_CONFIG = Object.freeze({
       "Enigma": "Solve the puzzle to reveal the answer.",
       "Shaktiman": "Identify the infamous inventor for this quote.",
       "EXE File": "Identify the Company from the audio clip.",
-      "Jajantram Mamantram": "Answer the question based on the text clue."
+      "Jajantram Mamantram": "Identify the software based on the clue."
     },
     "Social Media": {
       "Whats the Meme?": "Name the artist of the original meme from the image.",
@@ -263,15 +263,15 @@ window.QUIZ_BATTLE_CONFIG = Object.freeze({
     "Physics/Space": {
       "Laws of Motion": "Answer the question from the text.",
       "The Equilibrium": "Identify the physical concept from the blurred image.",
-      "A Space Odyssey": "Guess the time period for the comet to return based on the video.",
+      "A Space Odyssey": "Guess the time period for the comet in the video to return.",
       "Gravity": "Answer the question from the text.",
-      "A Long Time Ago!": "Identify the person based on the clues.",
+      "A Long Time Ago!": "Identify the person that challenged the following statements.",
       "Hiroshima and Nagasaki": "Identify the scientists from the image."
     },
     "Sports": {
-      "Lagaan": "Answer the question from the text.",
+      "Lagaan": "Which team lost the below tournament?",
       "Chak De!": "Name the sportsperson from the image.",
-      "GoliMaar": "Name the medal this person won in Olympics.",
+      "GoliMaar": "Which medal did this person win in Olympics?",
       "Total Recall": "Identify the team from the clue.",
       "Mahi Ve": "Name the sports played by the sportsperson.",
       "The Test": "Name the sportsperson from the video."
@@ -287,10 +287,10 @@ window.QUIZ_BATTLE_CONFIG = Object.freeze({
     "Music": {
       "Coke Studio": "Identify the singer from the audio clip.",
       "Unplugged": "Name the song from the lyrics.",
-      "Indian Idol": "Name the singer from the image.",
-      "Rap God": "Identify the rapper from the audio clip.",
-      "Secret Superstar": "Name the song from the video clip.",
-      "Americas Latent": "Identify the music genre from the text clue."  
+      "Indian Idol": "Name the singer from the audio.",
+      "Rap God": "Identify the song from the audio clip.",
+      "Secret Superstar": "Name the show from the audio clip.",
+      "Americas Latent": "Identify the song from the audio clip."  
     }
   }
 });
